@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-sidebar">
+       <div class="logo-n-text">
+           <img  src="images/odin-lined.png" alt="Odin Logo">
+           <h1 class="heading">odin</h1>
+       </div>
+       <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West </a>on <a href="https://unsplash.com/photos/25xggax4bSA" target="_blank">unsplash</a>.</div>
+    </div>
+    <div class="right-sidebar">
+        <div class="description">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div> 
+        <div class="description">Sign up now to get started.</div>
+        <div class="description cta"><em>Youn know you want to.</em></div>
+        <div class="form-container"><div class="call">Let's do this!</div>
+            <form action="" method="post">
+                <div class="form-elements">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" value="Thor" required>
+                </div>
+                <div class="form-elements">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" class="focus" id="last-name" value="Odinson" required>
+                </div>
+                <div class="form-elements">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-elements">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="number" name="phone-number" id="phone-number" required>
+                </div>
+                <div class="form-elements">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" class="error" id="password" required>
+                    <div class="error-text">*Password do not match</div>
+                </div>
+                <div class="form-elements">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" class="error" id="confirm-password" required>
+                </div>
+                <div class="button-container"><button type="submit">Create Account</button></div>
+            </form>
+        </div>
+        <div class="login">Already have an account? <a href="#" class="login-link">Log-in</a></div>
+    </div>
+</body>
+</html>
